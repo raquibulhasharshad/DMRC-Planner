@@ -3,7 +3,6 @@ package com.dmrc.metro.controller;
 import com.dmrc.metro.entity.User;
 import com.dmrc.metro.repository.UserRepository;
 import com.dmrc.metro.security.JwtUtil;
-import jakarta.servlet.http.Cookie;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpHeaders;
