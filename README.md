@@ -71,5 +71,32 @@ A premium, full-stack metro navigation application designed for the Delhi Metro 
    npm run dev
    ```
 
+## 🐋 Docker Support
+
+The project is fully dockerized for both local development and production-ready deployments.
+
+### Local Development (with Docker Compose)
+To launch the entire stack (Backend + Frontend) with a single command:
+```bash
+docker-compose up --build
+```
+- **Backend**: Available at `http://localhost:8080`
+- **Frontend**: Available at `http://localhost:5173`
+
+### Build Images Separately
+If you are deploying the frontend and backend to different services:
+
+**Backend**:
+```bash
+cd Backend/metro
+docker build -t dmrc-backend .
+```
+
+**Frontend**:
+```bash
+cd Frontend
+docker build -t dmrc-frontend .
+```
+
 ## 📝 License
 This project is for educational/demonstration purposes. All metro data is based on publicly available DMRC information.
