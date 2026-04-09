@@ -1,0 +1,42 @@
+# Environment Files (Crucial)
+.env
+.env.local
+.env.*.local
+
+# Node.js
+**/node_modules/
+**/dist/
+**/build/
+.npm
+yarn-error.log*
+.pnpm-debug.log*
+
+# Java / Spring Boot
+**/target/
+**/.mvn/
+**/mvnw
+**/mvnw.cmd
+.classpath
+.project
+.settings/
+*.class
+*.jar
+*.war
+*.ear
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Temporary Files
+tmp/
+.gemini/
+antigravity/
+brain/
+logs/
+*.webp
+*.png
+*.jpg
